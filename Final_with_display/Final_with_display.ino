@@ -1,7 +1,7 @@
-#define BLYNK_TEMPLATE_ID "TMPL3OYhoMpFA"
+#define BLYNK_TEMPLATE_ID "************"
 #define BLYNK_TEMPLATE_NAME "GAS Monitoring System"
-#define BLYNK_AUTH_TOKEN "BqA6jBWLmgDGPUTLLkz1hEOAjCoPA3NC"
-#define BOT_TOKEN "8319883055:AAEXEHADLFMTIu2whNhKEPlOaiT8tvmYWpc"
+#define BLYNK_AUTH_TOKEN "*******************"
+#define BOT_TOKEN "********************"
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <ESP8266WiFi.h>
@@ -17,11 +17,8 @@
 #define DHTTYPE DHT11
 #define FSR_PIN A0
 
-const char* ssid = "Monish";
-const char* password = "monish11";
-
-// const char* ssid = "OPPOReno8T5G";
-// const char* password = "OPPO8T5G";
+const char* ssid = "**********";
+const char* password = "***************";
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
